@@ -28,7 +28,7 @@ Esta actividad permite comprender el manejo de puertos digitales completos, el u
 
 ### Simulación en Proteus
 
-![Simulación caminata de 8 bits](./simulacion.png)
+![Simulación caminata de 8 bits](./evidencias_fisicas/simulacion_8_bits.jpeg)
 
 ### Video de funcionamiento
 
