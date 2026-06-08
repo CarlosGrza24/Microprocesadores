@@ -34,7 +34,7 @@ Esta actividad permitió reforzar el uso de salidas digitales, el manejo del reg
 
 ### Video de funcionamiento
 
-[Ver video de funcionamiento](./video_funcionamiento.mp4)
+![Funcionamiento del contador binario](./contador_6bits.gif)
 
 ---
 
