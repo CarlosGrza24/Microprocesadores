@@ -24,7 +24,7 @@ Esta práctica permitió comprender cómo configurar un puerto como salida digit
 
 ---
 
-## Evidencias
+## Evidencias de Proteus
 
 ### Simulación en Proteus — LEDs encendidos
 
@@ -35,6 +35,26 @@ Esta práctica permitió comprender cómo configurar un puerto como salida digit
 ![Simulación LEDs apagados](./simulacion_off.png)
 
 ---
+
+## Evidencias físicas
+
+Además de la simulación en Proteus, la práctica fue implementada físicamente en protoboard utilizando el microcontrolador **PIC16F887**. En el armado se conectaron 4 LEDs a salidas digitales del microcontrolador mediante resistencias, permitiendo observar el parpadeo directamente en el circuito real.
+
+### Armado general del circuito
+
+![Armado general del circuito](./evidencias_fisicas/armado_general_01.jpeg)
+
+### Conexiones del PIC16F887
+
+![Conexiones del PIC16F887](./evidencias_fisicas/armado_general_02.jpeg)
+
+### Video del funcionamiento físico
+
+[![Vista previa del parpadeo físico](./evidencias_fisicas/parpadeo_4leds_preview.gif)](./evidencias_fisicas/parpadeo_4leds_preview.mp4)
+
+### Carpeta completa de evidencias físicas
+
+[Ver evidencias físicas](./evidencias_fisicas)
 
 ## Funcionamiento del circuito
 
