@@ -51,7 +51,7 @@ La práctica también fue implementada físicamente en protoboard utilizando el 
 
 ### Video de funcionamiento físico
 
-[![Vista previa del circuito físico](./evidencias_fisicas/leds_funcionando_01.jpeg)](./evidencias_fisicas/video_fisico_funcionamiento.mp4)
+[![Vista previa del circuito físico](./evidencias_fisicas/video_fisico_funcionamiento.gif)](./evidencias_fisicas/video_fisico_funcionamiento.mp4)
 
 ### Evidencias completas
 
