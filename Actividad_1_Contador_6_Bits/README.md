@@ -38,6 +38,31 @@ Esta actividad permitió reforzar el uso de salidas digitales, el manejo del reg
 
 ---
 
+## Evidencias físicas
+
+Además de la simulación en Proteus, la práctica fue implementada físicamente utilizando el microcontrolador **PIC16F887** montado en protoboard. En el circuito se conectaron 6 LEDs a las salidas digitales del microcontrolador mediante resistencias, de manera que cada LED representa un bit del contador binario.
+
+El funcionamiento físico permite observar cómo el contador avanza desde `000000` hasta `111111`, representando los valores decimales del 0 al 63 mediante el encendido y apagado de los LEDs.
+
+### Armado general del circuito
+
+![Armado general del contador](./evidencias_fisicas/armado_general_01.jpeg)
+
+### Conexiones del PIC16F887
+
+![Conexiones del PIC16F887](./evidencias_fisicas/conexiones_pic.jpeg)
+
+
+### Video del funcionamiento físico
+
+[![Vista previa del contador físico](./evidencias_fisicas/leds_contador_01.jpeg)](./evidencias_fisicas/video_fisico_contador.mp4)
+
+> Si GitHub no muestra la vista previa del video, se puede abrir desde la opción **Raw** o descargarlo directamente.
+
+### Carpeta completa de evidencias físicas
+
+[Ver evidencias físicas](./evidencias_fisicas)
+
 ## Funcionamiento del circuito
 
 En la simulación se utilizó el microcontrolador **PIC16F887** conectado a 6 LEDs mediante resistencias. Los LEDs representan los 6 bits menos significativos del puerto D, por lo que cada combinación de encendido y apagado muestra un número binario distinto.
