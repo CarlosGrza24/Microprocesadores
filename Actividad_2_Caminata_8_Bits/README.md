@@ -38,10 +38,6 @@ Esta actividad permite comprender el manejo de puertos digitales completos, el u
 
 ## Evidencias físicas
 
----
-
-## Evidencias físicas
-
 La práctica también fue implementada físicamente en protoboard utilizando el microcontrolador **PIC16F887**. En el circuito se conectaron los LEDs a las salidas digitales del microcontrolador mediante resistencias, permitiendo observar el efecto de caminata directamente en el hardware.
 
 ### Armado general
