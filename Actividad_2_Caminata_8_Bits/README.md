@@ -104,10 +104,80 @@ Finalmente, se utiliza un retardo para que el cambio entre LEDs pueda observarse
 > Código pendiente por agregar.
 
 ```c
-/*
-Código de la secuencia tipo caminata de 8 bits.
-Pendiente por agregar.
-*/
+#include <xc.h>
+
+//=============================================================================
+// CONFIGURACION DE BITS DE CONFIGURACION
+//=============================================================================
+
+#pragma config FOSC = HS
+#pragma config WDTE = OFF
+#pragma config PWRTE = OFF
+#pragma config BOREN = ON
+#pragma config LVP = OFF
+#pragma config CPD = OFF
+#pragma config WRT = OFF
+#pragma config CP = OFF
+
+//=============================================================================
+// DEFINICIONES
+//=============================================================================
+
+#define _XTAL_FREQ 8000000
+
+void main(void){
+
+    TRISD = 0b00000000;
+    PORTD = 0b00000000;
+
+    while(1){
+
+        PORTD = 0b00000001;   // LED 0
+        __delay_ms(200);
+
+        PORTD = 0b00000010;   // LED 1
+        __delay_ms(200);
+
+        PORTD = 0b00000100;   // LED 2
+        __delay_ms(200);
+
+        PORTD = 0b00001000;   // LED 3
+        __delay_ms(200);
+
+        PORTD = 0b00010000;   // LED 4
+        __delay_ms(200);
+
+        PORTD = 0b00100000;   // LED 5
+        __delay_ms(200);
+
+        PORTD = 0b01000000;   // LED 6
+        __delay_ms(200);
+
+        PORTD = 0b10000000;   // LED 7
+        __delay_ms(200);
+
+        PORTD = 0b01000000;   // LED 6
+        __delay_ms(200);
+
+        PORTD = 0b00100000;   // LED 5
+        __delay_ms(200);
+
+        PORTD = 0b00010000;   // LED 4
+        __delay_ms(200);
+
+        PORTD = 0b00001000;   // LED 3
+        __delay_ms(200);
+
+        PORTD = 0b00000100;   // LED 2
+        __delay_ms(200);
+
+        PORTD = 0b00000010;   // LED 1
+        __delay_ms(200);
+
+        PORTD = 0b00000001;   // LED 0
+        __delay_ms(200);
+    }
+}
 ```
 
 ---
