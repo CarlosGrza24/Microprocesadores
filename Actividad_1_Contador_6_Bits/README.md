@@ -57,7 +57,6 @@ El funcionamiento físico permite observar cómo el contador avanza desde `00000
 
 [![Vista previa del contador físico](./evidencias_fisicas/leds_contador_01.jpeg)](./evidencias_fisicas/video_fisico_contador.mp4)
 
-> Si GitHub no muestra la vista previa del video, se puede abrir desde la opción **Raw** o descargarlo directamente.
 
 ### Carpeta completa de evidencias físicas
 
