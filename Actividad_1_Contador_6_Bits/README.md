@@ -55,7 +55,7 @@ El funcionamiento físico permite observar cómo el contador avanza desde `00000
 
 ### Video del funcionamiento físico
 
-[<img src="./evidencias_fisicas/contador_preview.gif" alt="Vista previa del contador físico" width="500">](./evidencias_fisicas/video_fisico_contador.mp4)
+[![Vista previa del contador físico](./evidencias_fisicas/contador_preview_frente.gif)](./evidencias_fisicas/video_fisico_contador.mp4)
 
 
 ### Carpeta completa de evidencias físicas
