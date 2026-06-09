@@ -72,13 +72,17 @@ El siguiente enlace abre el video completo del contador decimal funcionando en P
 
 ---
 
-## Funcionamiento del circuito
+## Conexiones del PIC16F887
 
-En la simulación se conectó un display de 7 segmentos al puerto D del microcontrolador **PIC16F887**. Cada pin del puerto controla un segmento del display mediante una resistencia de 240 Ω, la cual limita la corriente para proteger tanto al display como al microcontrolador.
 
-El display utilizado trabaja con una combinación específica de segmentos para formar cada número. Por ejemplo, para mostrar el número 0 se encienden casi todos los segmentos excepto el segmento central. Para mostrar el número 1, solamente se encienden los segmentos correspondientes al lado derecho.
 
-El programa envía al puerto D un valor binario distinto para cada número. Estos valores se encuentran almacenados en un arreglo, por lo que el contador solo necesita recorrer el arreglo desde la posición 0 hasta la posición 9.
+---
+
+
+## Funcionamiento físico del circuito
+
+[![Video de funcionamiento](./video_fisico_09.gif)](./video_fisico_09.mp4)
+
 
 ---
 
