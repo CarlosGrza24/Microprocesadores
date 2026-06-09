@@ -25,9 +25,24 @@ Esta actividad permitió reforzar el uso de arreglos, multiplexado, valores bina
 
 ---
 
-## Evidencias
-
 ### Simulación en Proteus
+
+A continuación se muestran las letras visualizadas en la matriz LED 8x8 durante la simulación en Proteus.
+
+<table>
+  <tr>
+    <td align="center"><strong>Letra I</strong></td>
+    <td align="center"><strong>Letra F</strong></td>
+    <td align="center"><strong>Letra L</strong></td>
+    <td align="center"><strong>Letra O</strong></td>
+  </tr>
+  <tr>
+    <td><img src="./simulacion_I.png" width="250"></td>
+    <td><img src="./simulacion_F.png" width="250"></td>
+    <td><img src="./simulacion_L.png" width="250"></td>
+    <td><img src="./simulacion_O.png" width="250"></td>
+  </tr>
+</table>
 
 ![Simulación letras en matriz](./simulacion_letras.png)
 
