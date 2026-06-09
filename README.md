@@ -6,11 +6,11 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 
 ## Actividades realizadas
 
-| Actividad | Nombre | Descripción |
-|---|---|---|
-| [Actividad en clase](./Actividad_Clase_Parpadeo_4_LEDs) | Parpadeo de 4 LEDs | Manejo básico de salidas digitales |
-| [Actividad 1](./Actividad_1_Contador_6_Bits) | Contador binario de 6 bits | Conteo de 0 a 63 representado con LEDs |
-| [Actividad 2](./Actividad_2_Caminata_8_Bits) | Secuencia tipo caminata de 8 bits | Desplazamiento secuencial de un LED |
+| Práctica | Actividad | Nombre | Descripción |
+|---|---|---|---|
+| Práctica 1 | [Actividad en clase](./Actividad_Clase_Parpadeo_4_LEDs) | Parpadeo de 4 LEDs | Manejo básico de salidas digitales |
+| Práctica 1 | [Actividad 1](./Actividad_1_Contador_6_Bits) | Contador binario de 6 bits | Conteo de 0 a 63 representado con LEDs |
+| Práctica 1 | [Actividad 2](./Actividad_2_Caminata_8_Bits) | Secuencia tipo caminata de 8 bits | Desplazamiento secuencial de un LED |
 
 ---
 
