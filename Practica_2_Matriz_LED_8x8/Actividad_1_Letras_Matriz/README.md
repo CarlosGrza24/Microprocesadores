@@ -37,10 +37,10 @@ A continuación se muestran las letras visualizadas en la matriz LED 8x8 durante
     <td align="center"><strong>Letra O</strong></td>
   </tr>
   <tr>
-    <td><img src="./simulacion_I.png" width="250"></td>
-    <td><img src="./simulacion_F.png" width="250"></td>
-    <td><img src="./simulacion_L.png" width="250"></td>
-    <td><img src="./simulacion_O.png" width="250"></td>
+    <td><img src="./simulacion_I.png" width="300"></td>
+    <td><img src="./simulacion_F.png" width="300"></td>
+    <td><img src="./simulacion_L.png" width="300"></td>
+    <td><img src="./simulacion_O.png" width="300"></td>
   </tr>
 </table>
 
