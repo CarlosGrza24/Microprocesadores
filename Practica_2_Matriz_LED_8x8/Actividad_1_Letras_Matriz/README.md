@@ -56,7 +56,7 @@ Además de la simulación en Proteus, la práctica fue implementada físicamente
 
 ### Armado general del circuito
 
-![Armado físico letras matriz](./evidencias_fisicas/armado_fisico_letras.jpeg)
+![Armado físico letras matriz](./evidencias_fisicas/armado_general_letras.jpeg)
 
 ### Video del funcionamiento físico
 
