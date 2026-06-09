@@ -29,7 +29,7 @@ Esta práctica permitió reforzar el uso de puertos digitales, arreglos de datos
 
 ### Simulación en Proteus
 
-![Simulación letras en matriz](./simulacion_letras.png)
+![Simulación letras en matriz](./simulacion_X.png)
 
 ---
 
@@ -39,7 +39,7 @@ Además de la simulación en Proteus, la práctica fue implementada físicamente
 
 ### Armado general del circuito
 
-![Armado físico matriz X](./evidencias_fisicas/armado_fisico_x.jpeg)
+![Armado físico matriz X](./evidencias_fisicas/armado_general_X.jpeg)
 
 ### Video del funcionamiento físico
 
