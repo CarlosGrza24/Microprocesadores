@@ -44,8 +44,6 @@ A continuación se muestran las letras visualizadas en la matriz LED 8x8 durante
   </tr>
 </table>
 
-![Simulación letras en matriz](./simulacion_letras.png)
-
 ### Video de funcionamiento en simulación
 
 [![Vista previa de letras en matriz](./video_funcionamiento_letras.mp4)
