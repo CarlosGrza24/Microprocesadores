@@ -6,11 +6,36 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 
 ## Actividades realizadas
 
-| Práctica | Actividad | Nombre | Descripción |
-|---|---|---|---|
-| Práctica 1 | [Actividad en clase](./Actividad_Clase_Parpadeo_4_LEDs) | Parpadeo de 4 LEDs | Manejo básico de salidas digitales |
-| Práctica 1 | [Actividad 1](./Actividad_1_Contador_6_Bits) | Contador binario de 6 bits | Conteo de 0 a 63 representado con LEDs |
-| Práctica 1 | [Actividad 2](./Actividad_2_Caminata_8_Bits) | Secuencia tipo caminata de 8 bits | Desplazamiento secuencial de un LED |
+## Actividades realizadas
+
+<table>
+  <thead>
+    <tr>
+      <th>Práctica</th>
+      <th>Actividad</th>
+      <th>Nombre</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3" align="center" valign="middle"><strong>Práctica 1</strong></td>
+      <td><a href="./Actividad_Clase_Parpadeo_4_LEDs">Actividad en clase</a></td>
+      <td>Parpadeo de 4 LEDs</td>
+      <td>Manejo básico de salidas digitales</td>
+    </tr>
+    <tr>
+      <td><a href="./Actividad_1_Contador_6_Bits">Actividad 1</a></td>
+      <td>Contador binario de 6 bits</td>
+      <td>Conteo de 0 a 63 representado con LEDs</td>
+    </tr>
+    <tr>
+      <td><a href="./Actividad_2_Caminata_8_Bits">Actividad 2</a></td>
+      <td>Secuencia tipo caminata de 8 bits</td>
+      <td>Desplazamiento secuencial de un LED</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
