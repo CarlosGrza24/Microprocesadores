@@ -25,8 +25,6 @@ Esta práctica permitió reforzar el uso de puertos digitales, arreglos de datos
 
 ---
 
-## Evidencias
-
 ### Simulación en Proteus
 
 ![Simulación letras en matriz](./simulacion_X.png)
