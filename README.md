@@ -1,4 +1,7 @@
 # Microcontroladores - Prácticas
+##Carlos Garza García
+##Sofía Mijares Peña
+
 En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizando **MPLAB X IDE**, lenguaje **C**, compilador **XC8** y simulaciones en **Proteus**.
 
 ## Actividades realizadas
