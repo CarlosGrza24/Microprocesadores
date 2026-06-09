@@ -85,7 +85,7 @@ A continuación se muestran los valores hexadecimales visualizados en el display
 
 El siguiente enlace abre el video completo del contador hexadecimal funcionando en Proteus.
 
-[Video de funcionamiento](./video_funcionamiento_16.mp4)
+[![Vista previa de letras en matriz](./video_funcionamiento_16.gif)](./video_funcionamiento_16.mp4)
 
 ---
 
