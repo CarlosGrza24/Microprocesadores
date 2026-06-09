@@ -89,7 +89,7 @@ A continuación se muestran los valores hexadecimales visualizados en el display
 
 ## Conexiones PIC16F887
 
-![Armado físico](./evidencias_fisicas/armado_GENERAL_09.jpeg)
+![Armado físico](./evidencias_fisicas/armado_general_09.jpeg)
 
 
 ### Video de funcionamiento en físico
