@@ -43,9 +43,19 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 <td>Matriz LED 8x8: letras</td>
 <td>Visualización secuencial de diferentes letras en la matriz LED</td>
 </tr>
+<tr>
+<td rowspan="2" align="center" valign="middle"><strong>Práctica 3</strong></td>
+<td><a href="./Practica_3_Display_7_Segmentos/Actividad_Clase_Contador_0_9">Actividad en clase</a></td>
+<td>Display de 7 segmentos: contador 0-9</td>
+<td>Conteo decimal del 0 al 9 utilizando un display de 7 segmentos</td>
+</tr>
+<tr>
+<td><a href="./Practica_3_Display_7_Segmentos/Actividad_1_Contador_Hexadecimal">Actividad 1</a></td>
+<td>Display de 7 segmentos: contador hexadecimal</td>
+<td>Conteo hexadecimal del 0 al F utilizando un display de 7 segmentos</td>
+</tr>
 </tbody>
 </table>
----
 
 ## Herramientas utilizadas
 
