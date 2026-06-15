@@ -60,7 +60,7 @@ Además de la simulación en Proteus, la práctica fue implementada físicamente
 
 ### Video del funcionamiento físico
 
-[![Vista previa física letras matriz](./evidencias_fisicas/letras_matriz_fisico.gif)](./evidencias_fisicas/video_fisico_letras_matriz.mp4)
+[![Vista previa física letras matriz](./evidencias_fisicas/video_fisico_matriz.gif)](./evidencias_fisicas/video_fisico_matriz.mp4)
 
 ### Carpeta completa de evidencias físicas
 
