@@ -80,7 +80,18 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 <td><a href="./Practica_5_Multiplexado_Interrupciones/Actividad_1_Contador_0_9999_Direccion">Actividad 1</a></td>
 <td>Contador 0-9999 con cambio de dirección</td>
 <td>Conteo ascendente y descendente mediante interrupción externa</td>
-</tr>  
+</tr>
+<tr>
+<td rowspan="2" align="center" valign="middle"><strong>Práctica 6</strong></td>
+<td><a href="./Practica_6_LCD/Actividad_Clase_LCD_HelloWorld">Actividad en clase</a></td>
+<td>LCD: mensaje Hello World</td>
+<td>Despliegue de mensajes en pantalla LCD 16x2</td>
+</tr>
+<tr>
+<td><a href="./Practica_6_LCD/Actividad_1_LCD_Mensajes_Caracteres">Actividad 1</a></td>
+<td>LCD: mensajes con caracteres especiales</td>
+<td>Cambio de mensajes mediante botón y uso de caracteres personalizados</td>
+</tr>
 </tbody>
 </table>
 
