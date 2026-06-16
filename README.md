@@ -97,6 +97,17 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 <td><a href="./Practica_7_ADC_LCD/Actividad_1_Potenciometro_LCD_Boton">Actividad 1</a></td>
 <td>Lectura de potenciómetro con LCD</td>
 <td>Visualización del voltaje o porcentaje de un potenciómetro mediante ADC y botón</td>
+</tr>
+<tr>
+<td rowspan="2" align="center" valign="middle"><strong>Práctica 8</strong></td>
+<td><a href="./Practica_8_ADC_Dos_Potenciometros/Actividad_Clase_Dos_Voltajes_LCD">Actividad en clase</a></td>
+<td>Lectura de dos voltajes con LCD</td>
+<td>Lectura de dos potenciómetros mediante ADC y despliegue de voltajes en LCD</td>
+</tr>
+<tr>
+<td><a href="./Practica_8_ADC_Dos_Potenciometros/Actividad_1_Dos_Potenciometros_Modos_LCD">Actividad 1</a></td>
+<td>Dos potenciómetros con modos de visualización</td>
+<td>Cambio entre voltaje, porcentaje y valor ADC usando botones</td>
 </tr>  
 </tbody>
 </table>
