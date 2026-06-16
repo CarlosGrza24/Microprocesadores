@@ -65,6 +65,22 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 <td>Contador 0-99 con tres botones</td>
 <td>Control de suma, resta y reinicio mediante botones</td>
 </tr>
+<tr>
+<td rowspan="3" align="center" valign="middle"><strong>Práctica 5</strong></td>
+<td><a href="./Practica_5_Multiplexado_Interrupciones/Actividad_Clase_A_Contador_0_99_4Displays">Actividad clase A</a></td>
+<td>Contador 0-99 con 4 displays de 7 segmentos</td>
+<td>Conteo decimal utilizando multiplexado en una pantalla de 4 displays</td>
+</tr>
+<tr>
+<td><a href="./Practica_5_Multiplexado_Interrupciones/Actividad_Clase_B_Contador_0_9_Interrupcion_LED">Actividad clase B</a></td>
+<td>Contador 0-9 con interrupción y LED</td>
+<td>Uso de interrupción externa para detener la cuenta y parpadear un LED</td>
+</tr>
+<tr>
+<td><a href="./Practica_5_Multiplexado_Interrupciones/Actividad_1_Contador_0_9999_Direccion">Actividad 1</a></td>
+<td>Contador 0-9999 con cambio de dirección</td>
+<td>Conteo ascendente y descendente mediante interrupción externa</td>
+</tr>  
 </tbody>
 </table>
 
