@@ -41,7 +41,7 @@ Esta práctica permitió comprender el funcionamiento básico de una pantalla LC
 
 ### Simulación en Proteus
 
-[![Simulacion LCD Hello World](./video_simu_lcd_clase.gif)](./video_simu_lcd_clase.mp4)
+[![Simulacion LCD Hello World](./video_simu_lcdclase.gif)](./video_simu_lcdclase.mp4)
 
 ---
 
