@@ -54,6 +54,17 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 <td>Display de 7 segmentos: contador hexadecimal</td>
 <td>Conteo hexadecimal del 0 al F utilizando un display de 7 segmentos</td>
 </tr>
+<tr>
+<td rowspan="2" align="center" valign="middle"><strong>Práctica 4</strong></td>
+<td><a href="./Practica_4_Entradas_Digitales/Actividad_Clase_3_LEDs_3_Botones">Actividad en clase</a></td>
+<td>Control de 3 LEDs con 3 botones</td>
+<td>Encendido independiente de LEDs mediante entradas digitales</td>
+</tr>
+<tr>
+<td><a href="./Practica_4_Entradas_Digitales/Actividad_1_Contador_0_99_Botones">Actividad 1</a></td>
+<td>Contador 0-99 con tres botones</td>
+<td>Control de suma, resta y reinicio mediante botones</td>
+</tr>
 </tbody>
 </table>
 
