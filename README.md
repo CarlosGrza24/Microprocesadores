@@ -114,6 +114,12 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 <td><a href="./Proyecto_Unidad_1_Videojuego_LCD">Proyecto</a></td>
 <td>Videojuego en LCD controlado con joystick</td>
 <td>Movimiento de un personaje personalizado en LCD mediante joystick, botón y ADC</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>Librerías</strong></td>
+<td><a href="./Libreria_LCD">Ver librería</a></td>
+<td>Librería LCD</td>
+<td>Archivos lcd.h y lcd.c utilizados a partir de la Práctica 6</td>
 </tr>  
 </tbody>
 </table>
