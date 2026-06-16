@@ -47,7 +47,7 @@ De acuerdo con las indicaciones del proyecto, se debía cumplir con lo siguiente
 
 ### Simulación en Proteus
 
-[![Video de funcionmiento](./evidencias_fisicas/funcionamiento_fisico.gif)](./evidencias_fisicas/video_fisico.mp4)
+[![Video de funcionamiento](./evidencias_fisicas/proyecto_fisico.gif)](./evidencias_fisicas/video_fisico.mp4)
 
 ---
 
