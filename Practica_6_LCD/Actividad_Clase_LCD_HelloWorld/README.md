@@ -96,16 +96,51 @@ La función de la librería permite controlar la ubicación del texto dentro de 
 ## Código utilizado
 
 ```c
-/*
-Código pendiente por agregar.
+#include <xc.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <xc.h>
+#include <stdbool.h>
+#include "lcd.h"// Biblioteca principal del compilador XC8
 
-En esta actividad se utilizó una pantalla LCD 16x2 para mostrar:
+//=============================================================================
+// CONFIGURACI N DE BITS DE CONFIGURACI N (FUSES)
+//=============================================================================
 
-Línea 1: Hello World!
-Línea 2: ABCDEFGHIJLMNOP
+// Selecci n de oscilador (usar XT si est s usando un cristal de 4 MHz)
+#pragma config FOSC = HS        // Oscillator Selection bits (XT oscillator)
+#pragma config WDTE = OFF       // Watchdog Timer Enable bit (WDT disabled)
+#pragma config PWRTE = OFF      // Power-up Timer Enable bit (PWRT disabled)
+#pragma config BOREN = ON       // Brown-out Reset Enable bit (enabled)
+#pragma config LVP = OFF        // Low-Voltage Programming Enable bit (disabled)
+#pragma config CPD = OFF        // Data EEPROM Memory Code Protection (disabled)
+#pragma config WRT = OFF        // Flash Program Memory Write Enable (disabled)
+#pragma config CP = OFF         // Flash Program Memory Code Protection (disabled)
 
-Cuando se encuentre el código original, se puede agregar en esta sección.
-*/
+//=============================================================================
+// DEFINICIONES
+//=============================================================================
+
+#define _XTAL_FREQ 8000000      // Frecuencia del oscilador (para __delay_ms y __delay_us)
+
+void main(void){
+    LCD lcd = {&PORTC, 2, 3, 4, 5, 6, 7}; //PORT, RS, EN, D4, D5, D6, D7
+    
+    LCD_Init(lcd);
+    
+    while(1){
+        LCD_Clear();
+        LCD_Set_Cursor(0,0);
+        LCD_putrs(" Hello world!");
+        
+        LCD_Set_Cursor(1,0);
+        for(char c = 'A'; c < 'Q'; c++){
+            LCD_putc(c);
+            __delay_ms(300);
+        }
+        __delay_ms(1000);
+    }
+}
 ```
 
 ---
