@@ -92,6 +92,12 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 <td>LCD: mensajes con caracteres especiales</td>
 <td>Cambio de mensajes mediante botón y uso de caracteres personalizados</td>
 </tr>
+<tr>
+<td align="center" valign="middle"><strong>Práctica 7</strong></td>
+<td><a href="./Practica_7_ADC_LCD/Actividad_1_Potenciometro_LCD_Boton">Actividad 1</a></td>
+<td>Lectura de potenciómetro con LCD</td>
+<td>Visualización del voltaje o porcentaje de un potenciómetro mediante ADC y botón</td>
+</tr>  
 </tbody>
 </table>
 
