@@ -1,0 +1,149 @@
+---
+
+# Proyecto Unidad 1 — Videojuego en LCD controlado con joystick
+
+## Descripción
+
+En este proyecto se desarrolló un pequeño videojuego utilizando el microcontrolador **PIC16F887**, una pantalla **LCD 16x2**, un joystick analógico y un botón.
+
+El objetivo principal fue controlar el movimiento de un personaje personalizado dentro de la pantalla LCD. El personaje se mueve horizontalmente con el eje **X** del joystick y cambia de línea con el eje **Y**. Además, al presionar el botón, el personaje cambia de apariencia, simulando una animación.
+
+El movimiento del personaje depende directamente de la lectura analógica del joystick mediante el módulo **ADC** del PIC16F887.
+
+---
+
+## Requisitos del proyecto
+
+- Hacer un videojuego controlado con joystick.
+- Mostrar el videojuego en una pantalla LCD.
+- Crear un personaje personalizado.
+- Controlar el movimiento del personaje con el eje X del joystick.
+- Cambiar la línea del personaje con el eje Y.
+- Usar un botón para que el personaje tenga una animación.
+- Al llegar a un extremo de la pantalla, el personaje debe aparecer en el extremo opuesto.
+
+---
+
+## Archivos del proyecto
+
+La carpeta del proyecto contiene únicamente los tres archivos necesarios para compilar el programa:
+
+```text
+Proyecto_Unidad_1_Videojuego_LCD/
+├── main.c
+├── lcd.h
+└── lcd.c
+```
+
+| Archivo | Descripción |
+|---|---|
+| [`main.c`](./Proyecto_Unidad_1_Videojuego_LCD/main.c) | Contiene la lógica principal del videojuego, lectura del joystick, botón, ADC y movimiento del personaje |
+| [`lcd.h`](./Proyecto_Unidad_1_Videojuego_LCD/lcd.h) | Contiene la estructura del LCD, macros y prototipos de funciones |
+| [`lcd.c`](./Proyecto_Unidad_1_Videojuego_LCD/lcd.c) | Contiene la implementación de las funciones para controlar la pantalla LCD |
+
+---
+
+## Componentes utilizados
+
+- PIC16F887
+- Pantalla LCD 16x2
+- Joystick analógico
+- Botón
+- Potenciómetro para contraste del LCD
+- Cristal oscilador
+- Botón de reset
+- Resistencia para MCLR
+- Fuente Vcc
+- Tierra GND
+- MPLAB X IDE
+- Compilador XC8
+- Proteus Design Suite
+- Librería LCD
+
+---
+
+## Funcionamiento del proyecto
+
+El joystick funciona como dos potenciómetros internos. Uno representa el eje **X** y el otro representa el eje **Y**. Estos valores analógicos se conectan a los canales `AN0` y `AN1` del microcontrolador.
+
+El PIC16F887 realiza la lectura de ambos canales mediante el módulo **ADC**. Dependiendo del valor leído en el eje X, el personaje se mueve hacia la izquierda o hacia la derecha. Si el valor del eje X es bajo, la posición disminuye; si el valor es alto, la posición aumenta.
+
+El eje Y permite cambiar la línea del personaje en la pantalla LCD. Si el valor del eje Y es bajo, el personaje se muestra en la primera línea. Si el valor es alto, se muestra en la segunda línea.
+
+El botón conectado a `RB0` cambia el carácter mostrado en pantalla. Cuando el botón no está presionado se muestra el dinosaurio, y al presionarlo se muestra una carita, simulando una animación.
+
+---
+
+## Lógica de programación
+
+Primero se definen dos caracteres personalizados para el LCD: un dinosaurio y una carita. Estos caracteres se guardan en la memoria CGRAM del LCD.
+
+Después se leen los canales analógicos del joystick:
+
+| Canal | Entrada | Función |
+|---|---|---|
+| AN0 | RA0 | Eje X del joystick |
+| AN1 | RA1 | Eje Y del joystick |
+
+El eje X modifica la columna donde aparece el personaje:
+
+```c
+if(x < 400){
+    pos--;
+}
+
+if(x > 600){
+    pos++;
+}
+```
+
+Cuando el personaje llega a un extremo, aparece en el lado opuesto:
+
+```c
+if(pos < 0){
+    pos = 15;
+}
+
+if(pos > 15){
+    pos = 0;
+}
+```
+
+El eje Y modifica la línea de la pantalla LCD:
+
+```c
+if(y < 400){
+    linea = 0;
+}
+
+if(y > 600){
+    linea = 1;
+}
+```
+
+Finalmente, el botón cambia el personaje mostrado:
+
+```c
+if(PORTBbits.RB0 == 0){
+    LCD_putc(1);
+}
+else{
+    LCD_putc(0);
+}
+```
+
+---
+
+## Resultado esperado
+
+Al ejecutar el proyecto, la pantalla LCD debe mostrar un personaje personalizado. El joystick permite moverlo horizontalmente y cambiarlo entre la primera y segunda línea del LCD.
+
+Cuando el personaje llega al extremo derecho, aparece nuevamente del lado izquierdo. Si llega al extremo izquierdo, aparece nuevamente del lado derecho.
+
+Al presionar el botón, el personaje cambia visualmente, simulando una animación.
+
+---
+
+## Conclusión
+
+Este proyecto permitió integrar varios conceptos vistos durante la unidad, como el uso de pantalla LCD, caracteres personalizados, lectura ADC, joystick analógico, botones y lógica de movimiento. También permitió aplicar condiciones, funciones y manejo de posición dentro de una pantalla LCD para crear una interacción tipo videojuego con el PIC16F887.
