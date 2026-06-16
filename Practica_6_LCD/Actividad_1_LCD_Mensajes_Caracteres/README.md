@@ -323,14 +323,14 @@ void main(void){
 Al iniciar la simulación, la pantalla LCD debe mostrar el primer mensaje:
 
 ```text
-Dinosaurio [carácter personalizado]
+Dos tres trucos [carácter personalizado]
 Mensaje uno
 ```
 
 Al presionar el botón, el contenido de la pantalla debe cambiar al segundo mensaje:
 
 ```text
-Carita [carácter personalizado]
+No puedo Martha [carácter personalizado]
 Mensaje dos
 ```
 
