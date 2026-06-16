@@ -44,12 +44,6 @@ Además de la simulación en Proteus, la práctica puede implementarse físicame
 
 ![Armado físico](./evidencias_fisicas/armado_volt2.jpeg)
 
-### Funcionamiento físico
-
-El siguiente GIF muestra una vista previa del funcionamiento físico. Al dar clic sobre el GIF, se abre el video completo de la evidencia.
-
-[![Vista previa física](./evidencias_fisicas/funcionamiento_fisico.gif)](./evidencias_fisicas/video_fisico.mp4)
-
 ### Carpeta completa de evidencias físicas
 
 [Ver evidencias físicas](./evidencias_fisicas)
