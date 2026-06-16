@@ -32,7 +32,7 @@ Cada botón fue conectado a una entrada del puerto B y cada LED a una salida del
 
 ### Simulación en Proteus
 
-![Simulación 3 LEDs con 3 botones](./simulacion.png)
+![Simulación 3 LEDs con 3 botones](./video_simu_leds.gif)
 
 ### Video de funcionamiento en simulación
 
