@@ -108,6 +108,12 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 <td><a href="./Practica_8_ADC_Dos_Potenciometros/Actividad_1_Dos_Potenciometros_Modos_LCD">Actividad 1</a></td>
 <td>Dos potenciómetros con modos de visualización</td>
 <td>Cambio entre voltaje, porcentaje y valor ADC usando botones</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>Proyecto Unidad 1</strong></td>
+<td><a href="./Proyecto_Unidad_1_Videojuego_LCD">Proyecto</a></td>
+<td>Videojuego en LCD controlado con joystick</td>
+<td>Movimiento de un personaje personalizado en LCD mediante joystick, botón y ADC</td>
 </tr>  
 </tbody>
 </table>
