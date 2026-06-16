@@ -51,14 +51,12 @@ Además de la simulación en Proteus, la práctica puede implementarse físicame
 
 ### Funcionamiento físico
 
-
-
 A continuación se muestran los dos estados de la pantalla LCD. Cada estado corresponde al mensaje que se despliega al presionar el botón.
 
 <table>
   <tr>
-    <td align="center"><strong>Estado 1: Dinosaurio</strong></td>
-    <td align="center"><strong>Estado 2: Carita</strong></td>
+    <td align="center"><strong>Estado 1: Dos tres trucos</strong></td>
+    <td align="center"><strong>Estado 2: No puedo Martha</strong></td>
   </tr>
   <tr>
     <td align="center">
