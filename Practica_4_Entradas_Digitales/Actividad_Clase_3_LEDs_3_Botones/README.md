@@ -28,17 +28,9 @@ Cada botón fue conectado a una entrada del puerto B y cada LED a una salida del
 
 ---
 
-## Evidencias
-
 ### Simulación en Proteus
 
-![Simulación 3 LEDs con 3 botones](./video_simu_leds.gif)
-
-### Video de funcionamiento en simulación
-
-El siguiente enlace abre el video completo de la simulación en Proteus.
-
-[▶ Ver video de funcionamiento](./video_funcionamiento.mp4)
+[![Video de funcionamiento](./video_simu_leds.gif)](./video_simu_leds.mp4)
 
 ---
 
@@ -48,13 +40,13 @@ Además de la simulación en Proteus, la actividad fue implementada físicamente
 
 ### Armado general del circuito
 
-![Armado físico](./evidencias_fisicas/armado_general.jpeg)
+![Armado físico](./evidencias_fisicas/leds_fisico_armado.jpeg)
 
 ### Funcionamiento físico
 
 El siguiente GIF muestra una vista previa del funcionamiento físico. Al dar clic sobre el GIF, se abre el video completo de la evidencia.
 
-[![Vista previa física](./evidencias_fisicas/funcionamiento_fisico.gif)](./evidencias_fisicas/video_fisico.mp4)
+[![Vista previa física](./evidencias_fisicas/video_fisico_leds.gif)](./evidencias_fisicas/video_fisico_leds.mp4)
 
 ### Carpeta completa de evidencias físicas
 
