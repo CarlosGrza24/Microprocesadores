@@ -32,7 +32,7 @@ Esta práctica permitió reforzar el uso de entradas analógicas, conversión an
 
 ### Simulación en Proteus
 
-[![Video de funcionamiento](./evidencias_fisicas/simu_volt1.gif)](./evidencias_fisicas/simu_volt1.mp4)
+[![Video de funcionamiento](./evidencias_fisicas/simulación_proteus.gif)](./evidencias_fisicas/simulación_proteus.mp4)
 
 ---
 
@@ -86,15 +86,80 @@ Finalmente, los valores calculados se muestran en la pantalla LCD.
 ## Código utilizado
 
 ```c
-/*
-Código pendiente por agregar.
+#include <xc.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include "lcd.h"
 
-En esta actividad se realizó la lectura de dos voltajes analógicos
-usando dos potenciómetros y el módulo ADC del PIC16F887.
+#pragma config FOSC = HS
+#pragma config WDTE = OFF
+#pragma config PWRTE = OFF
+#pragma config BOREN = ON
+#pragma config LVP = OFF
+#pragma config CPD = OFF
+#pragma config WRT = OFF
+#pragma config CP = OFF
 
-Cuando se encuentre el código original, se puede agregar completo
-en esta sección.
-*/
+#define _XTAL_FREQ 8000000
+
+void ADC_Init(){
+    ANSEL = 0x03;      // Activa AN0 y AN1 como entradas analogicas
+    ANSELH = 0x00;    // Desactiva analogicas altas
+    
+    ADCON0 = 0x81;    // ADC encendido, canal AN0 inicialmente
+    ADCON1 = 0x80;    // Justificado a la derecha, Vref = VDD y VSS
+}
+
+unsigned int ADC_Read(unsigned char canal){
+    ADCON0 = (canal << 2) | 0x01;   // Selecciona canal y enciende ADC
+    __delay_us(20);                 // Tiempo de adquisicion
+    
+    GO_nDONE = 1;                   // Inicia conversion
+    while(GO_nDONE);                // Espera a que termine
+    
+    return((ADRESH << 8) + ADRESL); // Regresa valor de 0 a 1023
+}
+
+void MostrarVoltaje(unsigned int adc_result){
+    char buffer[16];
+    
+    unsigned long volt = ((unsigned long)adc_result * 50000) / 1023;
+    unsigned int part_int = volt / 10000;
+    unsigned int part_dec = volt % 10000;
+    
+    sprintf(buffer, "%u.%04u", part_int, part_dec);
+    LCD_putrs(buffer);
+}
+
+void main(void){
+    ADC_Init();
+    
+    LCD lcd = {&PORTC, 2, 3, 4, 5, 6, 7};
+    LCD_Init(lcd);
+    
+    unsigned int adc1;
+    unsigned int adc2;
+    
+    while(1){
+        adc1 = ADC_Read(0);   // Lee RA0 / AN0
+        adc2 = ADC_Read(1);   // Lee RA1 / AN1
+        
+        LCD_Clear();
+        
+        LCD_Set_Cursor(0,0);
+        LCD_putrs("V1:");
+        LCD_Set_Cursor(0,3);
+        MostrarVoltaje(adc1);
+        
+        LCD_Set_Cursor(1,0);
+        LCD_putrs("V2:");
+        LCD_Set_Cursor(1,3);
+        MostrarVoltaje(adc2);
+        
+        __delay_ms(300);
+    }
+}
 ```
 
 ---
