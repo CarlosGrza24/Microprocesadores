@@ -55,8 +55,6 @@ Además de la simulación en Proteus, la práctica puede implementarse físicame
 
 ### Funcionamiento físico
 
-El siguiente GIF muestra una vista previa del funcionamiento físico. Al dar clic sobre el GIF, se abre el video completo de la evidencia.
-
 [![Vista previa física LCD](./evidencias_fisicas/video_fisico_lcd_clase.gif)](./evidencias_fisicas/video_fisico_lcd_clase.mp4)
 
 ### Carpeta completa de evidencias físicas
