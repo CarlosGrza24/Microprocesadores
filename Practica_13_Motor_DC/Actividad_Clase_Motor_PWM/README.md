@@ -28,11 +28,15 @@ El motor gira en una sola dirección y su velocidad depende del duty cycle gener
 
 ### Simulación en Proteus
 
-![Simulación motor PWM](./simulacion.png)
+[![Simulación PWM Motor](./evidencias_fisicas/motordc_sim.gif)](./evidencias_fisicas/motordc_sim.mp4)
 
-### Video de funcionamiento
+## Evidencias físicas  
 
-[▶ Ver video de funcionamiento](./video_funcionamiento.mp4)
+### Armado general del circuito 
+![Armado físico PWM Motor](./evidencias_fisicas/motordc_armado_general.jpeg) 
+### Video de funcionamiento físico 
+
+[![Funcionamiento PWM Motor](./evidencias_fisicas/motordc_fisico.gif)](./evidencias_fisicas/motordc_fisico.mp4)
 
 ---
 
