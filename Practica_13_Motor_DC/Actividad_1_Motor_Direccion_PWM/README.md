@@ -28,11 +28,16 @@ A diferencia de la actividad anterior, aquí el PWM se implementa por software u
 
 ### Simulación en Proteus
 
-![Simulación motor dirección](./simulacion.png)
+[![Simulación motor direccion](./evidencias_fisicas/motor_sim.gif)](./evidencias_fisicas/motor_sim.mp4)
 
-### Video de funcionamiento
 
-[▶ Ver video de funcionamiento](./video_funcionamiento.mp4)
+## Evidencias físicas
+
+### Armado general del circuito 
+![Armado físico motor](./evidencias_fisicas/motordc_armado_general.jpeg) 
+
+### Video de funcionamiento físico 
+[![Funcionamiento motor direccion](./evidencias_fisicas/motor_fisico.gif)](./evidencias_fisicas/motor_fisico.mp4)
 
 ---
 
