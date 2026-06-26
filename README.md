@@ -122,12 +122,6 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 <td>Archivos lcd.h y lcd.c utilizados a partir de la Práctica 6</td>
 </tr>
 <tr>
-<td rowspan="4" align="center" valign="middle"><strong>Práctica 9</strong></td>
-<td><a href="./Practica_9_Timers_LCD/Actividad_Clase_A_Timer0_LCD">Actividad clase A</a></td>
-<td>Temporizador con Timer0 y LCD</td>
-<td>Conteo de tiempo en formato minutos y segundos usando Timer0</td>
-</tr>
-<tr>
 <td rowspan="2" align="center" valign="middle"><strong>Práctica 9</strong></td>
 <td><a href="./Practica_9_Timer0_LCD/Actividad_Clase_Timer0_LCD">Actividad en clase</a></td>
 <td>Temporizador con Timer0 y LCD</td>
@@ -138,6 +132,7 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 <td>Timer0 con monitoreo de voltaje</td>
 <td>Visualización de voltaje ADC y tiempo en pantalla LCD</td>
 </tr>
+
 <tr>
 <td rowspan="2" align="center" valign="middle"><strong>Práctica 10</strong></td>
 <td><a href="./Practica_10_Timer1_LCD/Actividad_Clase_Timer1_LCD">Actividad en clase</a></td>
@@ -149,6 +144,7 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 <td>Timer1 con monitoreo de voltaje</td>
 <td>Visualización de voltaje ADC y tiempo en pantalla LCD usando Timer1</td>
 </tr>
+
 <tr>
 <td rowspan="2" align="center" valign="middle"><strong>Práctica 11</strong></td>
 <td><a href="./Practica_11_PWM_LEDs/Actividad_Clase_PWM_Dos_LEDs">Actividad en clase</a></td>
@@ -160,6 +156,7 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 <td>PWM para un LED con potenciómetro</td>
 <td>Control de intensidad de un LED mediante ADC y PWM por hardware</td>
 </tr>
+
 <tr>
 <td rowspan="2" align="center" valign="middle"><strong>Práctica 12</strong></td>
 <td><a href="./Practica_12_Teclado_LCD/Actividad_Clase_Teclado_LCD">Actividad en clase</a></td>
@@ -171,6 +168,7 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 <td>Calculadora con teclado matricial y LCD</td>
 <td>Operaciones básicas usando teclado 4x4 y pantalla LCD</td>
 </tr>
+
 <tr>
 <td rowspan="2" align="center" valign="middle"><strong>Práctica 13</strong></td>
 <td><a href="./Practica_13_Motor_DC/Actividad_Clase_Motor_PWM">Actividad en clase</a></td>
@@ -182,6 +180,7 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 <td>Motor DC con velocidad y dirección</td>
 <td>Control de velocidad y dirección mediante dos potenciómetros y PWM por software</td>
 </tr>
+
 <tr>
 <td rowspan="2" align="center" valign="middle"><strong>Práctica 14</strong></td>
 <td><a href="./Practica_14_Servo/Actividad_Clase_Servo_0_180">Actividad en clase</a></td>
