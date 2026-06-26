@@ -28,8 +28,7 @@ El valor analógico del potenciómetro se convierte mediante el ADC y se utiliza
 
 ### Simulación en Proteus
 
-[![Simulación PWM LED](./evidencias_fisicas/Unled_sim.gif)](./evidencias_fisicas/Unled_simUn
-.mp4)
+[![Simulación PWM LED](./evidencias_fisicas/Unled_sim.gif)](./evidencias_fisicas/Unled_sim.mp4)
 
 ## Evidencias físicas 
 
@@ -37,7 +36,7 @@ El valor analógico del potenciómetro se convierte mediante el ADC y se utiliza
 ![Armado físico LCD](./evidencias_fisicas/Unled_armado_general.jpeg) 
 
 ### Video de funcionamiento físico 
-[![Simulación Timer0 LCD](./evidencias_fisicas/Unled_fisico.gif)](./evidencias_fisicas/Unled_fisico.mp4)
+[![Simulación PWM LED](./evidencias_fisicas/Unled_fisico.gif)](./evidencias_fisicas/Unled_fisico.mp4)
 
 ---
 
