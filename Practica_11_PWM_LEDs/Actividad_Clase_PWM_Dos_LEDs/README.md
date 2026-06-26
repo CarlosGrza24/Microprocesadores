@@ -28,11 +28,14 @@ El primer potenciómetro conectado a `RA0/AN0` controla el LED conectado a `RC2/
 
 ### Simulación en Proteus
 
-![Simulación PWM dos LEDs](./simulacion.png)
+[![Simulación PWM Dos LEDs](./evidencias_fisicas/Dosleds_sim.gif)](./evidencias_fisicas/Dosleds_sim.mp4)
+## Evidencias físicas 
 
-### Video de funcionamiento
+### Armado general del circuito 
+![Armado físico LCD](./evidencias_fisicas/Dosleds_armado_general.jpeg) 
 
-[▶ Ver video de funcionamiento](./video_funcionamiento.mp4)
+### Video de funcionamiento físico
+[![Simulación Timer0 LCD](./evidencias_fisicas/Dosleds_fisico.gif)](./evidencias_fisicas/Dosleds_fisico.mp4)
 
 ---
 
