@@ -38,7 +38,7 @@ Para el manejo de la pantalla LCD se utilizó la librería general del repositor
 
 ### Simulación en Proteus
 
-[![Simulación Timer1 LCD](./evidencias_fisicas/Timer1_sim.gif)](./evidencias_fisicas/Timer1_sim.mp4)
+[![Simulación Timer1 LCD](./evidencias_fisicas/Timer1t_sim.gif)](./evidencias_fisicas/Timer1t_sim.mp4)
 
 ## Evidencias físicas
 
@@ -46,7 +46,7 @@ Para el manejo de la pantalla LCD se utilizó la librería general del repositor
 ![Armado físico LCD](./evidencias_fisicas/Timer1_armado_general.jpeg)
 
 ### Video de funcionamiento físico 
-[![Funcionamiento Timer1 LCD](./evidencias_fisicas/Timer1_fisico.gif)](./evidencias_fisicas/Timer1_fisico.mp4)
+[![Funcionamiento Timer1 LCD](./evidencias_fisicas/Timer1t_fisico.gif)](./evidencias_fisicas/Timer1t_fisico.mp4)
 
 ---
 
