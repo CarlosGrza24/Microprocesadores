@@ -26,11 +26,16 @@ La señal de control se generó manualmente mediante pulsos temporizados con **T
 
 ### Simulación en Proteus
 
-![Simulación servo 0 a 180](./simulacion.png)
+[![Simulación Servo 0 a 180](./evidencias_fisicas/servo_sim.gif)](./evidencias_fisicas/servo_sim.mp4)
 
-### Video de funcionamiento
 
-[▶ Ver video de funcionamiento](./video_funcionamiento.mp4)
+## Evidencias físicas
+
+### Armado general del circuito 
+![Armado físico Servoservo](./evidencias_fisicas/Servo_armado_general.jpeg) 
+
+### Video de funcionamiento físico 
+[![Funcionamiento Servo 0 a 180](./evidencias_fisicas/servo_fisico.gif)](./evidencias_fisicas/servo_fisico.mp4)
 
 ---
 
