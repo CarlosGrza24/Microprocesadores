@@ -189,6 +189,7 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 <td>Control de posición de un servomotor mediante ADC</td>
 </tr>
 <tr>
+<td rowspan="2" align="center" valign="middle"><strong>Proyecto Final</strong></td>
 <td><a href="./Proyecto_Final/Practica_Final_Juego_Futbol_2PIC">Practica Final</a></td>
 <td>Juego de fútbol con comunicación entre dos PIC16F887</td>
 <td>Dos microcontroladores PIC16F887 se comunican para crear un juego de fútbol en LCD. Lógica de <td>comunicación para detectar gol o atajada.</td>
