@@ -38,11 +38,24 @@ Para el manejo de la pantalla LCD se utilizó la librería general del repositor
 
 ### Simulación en Proteus
 
-![Simulación Timer0 LCD](./simulacion.png)
+[![Simulación Timer0 LCD](./evidencias_fisicas/Timer0_sim.gif)](./evidencias_fisicas/Timer0_sim.mp4)
 
-### Video de funcionamiento
 
-[▶ Ver video de funcionamiento](./video_funcionamiento.mp4)
+
+---
+
+## Evidencias físicas
+
+Además de la simulación en Proteus, el proyecto puede implementarse físicamente utilizando el microcontrolador PIC16F887, una pantalla LCD 16x2.
+
+### Armado general del circuito
+![Armado físico LCD](./evidencias_fisicas/armado_general.jpeg)
+
+
+
+### Video de funcionamiento físico
+[![Simulación Timer0 LCD](./evidencias_fisicas/funcionamiento_fisico.gif)](./evidencias_fisicas/video_fisico.mp4)
+
 
 ---
 
