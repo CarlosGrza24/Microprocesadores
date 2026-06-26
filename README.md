@@ -191,7 +191,7 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 <tr>
 <td><a href="./Proyecto_Final/Practica_Final_Juego_Futbol_2PIC">Practica Final</a></td>
 <td>Juego de fútbol con comunicación entre dos PIC16F887</td>
-<td>Proyecto integrador donde dos microcontroladores PIC16F887 se comunican para crear un juego de fútbol en LCD. Se utilizaron joysticks, ADC, caracteres personalizados, entradas/salidas digitales y lógica de comunicación para detectar gol o atajada.</td>
+<td>Proyecto integrador donde dos microcontroladores PIC16F887 se comunican para crear un juego de <td>fútbol en LCD. Se utilizaron joysticks, ADC, caracteres personalizados, entradas/salidas <td>digitales y lógica de comunicación para detectar gol o atajada.</td>
 </tr>
 </tbody>
 </table>
