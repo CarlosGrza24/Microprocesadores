@@ -38,11 +38,15 @@ Para el manejo de la pantalla LCD se utilizó la librería general del repositor
 
 ### Simulación en Proteus
 
-![Simulación teclado LCD](./simulacion.png)
+[![Teclado matricial](./evidencias_fisicas/Teclado_sim.gif)](./evidencias_fisicas/Teclado_sim.mp4)
 
-### Video de funcionamiento
+## Evidencias físicas
+teclado
+### Armado general del circuito 
+![Armado físico teclado](./evidencias_fisicas/tec_armado_general.jpeg)
 
-[▶ Ver video de funcionamiento](./video_funcionamiento.mp4)
+### Video de funcionamiento físico 
+[![Funcionamiento Teclado matricial](./evidencias_fisicas/Teclado_fisico.gif)](./evidencias_fisicas/Teclado_fisico.mp4)
 
 ---
 
