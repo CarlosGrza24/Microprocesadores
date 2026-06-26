@@ -21,7 +21,7 @@ El proyecto utiliza pantallas LCD 16x2, joysticks analógicos, lectura ADC, cara
 - Proteus Design Suite
 
  ### Simulación en Proteus
-[![Simulación Juego Futbol](./evidencias_fisicas/Timer0_fisico.gif)](./evidencias_fisicas/Timer0_fisico.mp4)
+![Simulación Juego Futbol](./evidencias_fisicas/Comu_simu.gif)
 
 ## Funcionamiento general
 
@@ -58,10 +58,10 @@ El segundo PIC controla al portero. Este recibe la información del disparo desd
 ## Evidencias físicas
 
 ### Armado general del circuito 
-![Armado físico LCD](./evidencias_fisicas/Timer0_armado_general.jpeg) 
+![Armado físico LCD](./evidencias_fisicas/Proy_armado_general.jpeg) 
 
 ### Video de funcionamiento físico 
-[![Simulación Timer0 LCD](./evidencias_fisicas/Timer0_fisico.gif)](./evidencias_fisicas/Timer0_fisico.mp4)
+[![Simulación Timer0 LCD](./evidencias_fisicas/proy_fisico.gif)](./evidencias_fisicas/proy_fisico.mp4)
 
 ## Conocimientos integrados
 
