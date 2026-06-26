@@ -46,12 +46,12 @@ El segundo PIC controla al portero. Este recibe la información del disparo desd
 
 | Archivo | Descripción |
 |---|---|
-| [`main.c delantero`](./evidencias%20fisicas/mainb.c) | Código del PIC que controla al delantero y el disparo |
-| [`lcdb.h`](./evidencias%20fisicas/lcdb.h) | Librería LCD del delantero |
-| [`lcdb.c`](./evidencias%20fisicas/lcdb.c) | Funciones de la librería LCD del delantero |
-| [`main.c portero`](./evidencias%20fisicas/mainp.c) | Código del PIC que controla al portero |
-| [`lcdp.h`](./evidencias%20fisicas/lcdp.h) | Librería LCD del portero |
-| [`lcdp.c`](./evidencias%20fisicas/lcdp.c) | Funciones de la librería LCD del portero |
+| [`main.c delantero`](./evidencias_fisicas/mainb.c) | Código del PIC que controla al delantero y el disparo |
+| [`lcdb.h`](./evidencias_fisicas/lcdb.h) | Librería LCD del delantero |
+| [`lcdb.c`](./evidencias_fisicas/lcdb.c) | Funciones de la librería LCD del delantero |
+| [`main.c portero`](./evidencias_fisicas/mainp.c) | Código del PIC que controla al portero |
+| [`lcdp.h`](./evidencias_fisicas/lcdp.h) | Librería LCD del portero |
+| [`lcdp.c`](./evidencias_fisicas/lcdp.c) | Funciones de la librería LCD del portero |
 
 ## Evidencias físicas
 
