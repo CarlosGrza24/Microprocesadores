@@ -27,11 +27,15 @@ El valor leído por el ADC se convierte en un ancho de pulso entre `500 us` y `2
 
 ### Simulación en Proteus
 
-![Simulación servo con potenciómetro](./simulacion.png)
+[![Simulación Servo con Potenciometro](./evidencias_fisicas/servoP_simu.gif)](./evidencias_fisicas/servoP_simu.mp4)
 
-### Video de funcionamiento
+## Evidencias físicas 
 
-[▶ Ver video de funcionamiento](./video_funcionamiento.mp4)
+### Armado general del circuito 
+![Armado físico Servo](./evidencias_fisicas/Servo_armado_general.jpeg) 
+
+### Video de funcionamiento físico Servo
+[![Funcionamiento Servo con Potenciometro](./evidencias_fisicas/servoP_fisico.gif)](./evidencias_fisicas/servoP_fisico.mp4)
 
 ---
 
