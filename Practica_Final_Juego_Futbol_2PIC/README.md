@@ -53,8 +53,6 @@ El segundo PIC controla al portero. Este recibe la información del disparo desd
 | [`PIC_Portero/lcdp.h`](./evidencias%20fisicas/PIC_Portero/lcdp.h) | Librería LCD del portero |
 | [`PIC_Portero/lcdp.c`](./evidencias%20fisicas/PIC_Portero/lcdp.c) | Funciones de la librería LCD del portero |
 
-## Evidencias
-
 ## Evidencias físicas
 
 ### Armado general del circuito 
