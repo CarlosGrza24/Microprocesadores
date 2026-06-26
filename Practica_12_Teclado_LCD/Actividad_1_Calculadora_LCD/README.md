@@ -38,11 +38,15 @@ Para el manejo de la pantalla LCD se utilizó la librería general del repositor
 
 ### Simulación en Proteus
 
-![Simulación calculadora](./simulacion.png)
+[![Simulación calculadora](./evidencias_fisicas/Calc_sim.gif)](./evidencias_fisicas/Calc_sim.mp4)
 
-### Video de funcionamiento
+## Evidencias físicas  
 
-[▶ Ver video de funcionamiento](./video_funcionamiento.mp4)
+### Armado general del circuito 
+![Armado físico calculadoracalc](./evidencias_fisicas/calc_armado_general.jpeg) 
+
+### Video de funcionamiento físico 
+[![Funcionamiento calculadora](./evidencias_fisicas/Calc_fisico.gif)](./evidencias_fisicas/Calc_fisico.mp4)
 
 ---
 
@@ -263,21 +267,15 @@ void Print_Number(long num) {
 }
 
 void Keypad_Init(void) {
-    TRISD = 0b11110000;   // RD0-RD3 salidas para filas
+    TRISD = 0b11110000;   // RD0-RD3 salidas, RD4-RD7 entradas
     PORTD = 0b00001111;   // Filas en 1
-
-    TRISB = 0b11110000;   // RB4-RB7 entradas para columnas
-    PORTB = 0x00;
-
-    OPTION_REG &= 0b01111111;   // Activa pull-ups internos de PORTB
-    WPUB = 0b11110000;          // Pull-ups en RB4, RB5, RB6, RB7
 }
 
 char Keypad_Read(void) {
     const char keys[4][4] = {
-        {'1', '2', '3', '-'},
-        {'4', '5', '6', 'X'},
         {'7', '8', '9', '/'},
+        {'4', '5', '6', 'X'},
+        {'1', '2', '3', '-'},
         {'C', '0', '=', '+'}
     };
 
@@ -293,21 +291,10 @@ char Keypad_Read(void) {
 
         __delay_us(50);
 
-        if((PORTB & 0b00010000) == 0) {
-            return keys[row][0];
-        }
-
-        if((PORTB & 0b00100000) == 0) {
-            return keys[row][1];
-        }
-
-        if((PORTB & 0b01000000) == 0) {
-            return keys[row][2];
-        }
-
-        if((PORTB & 0b10000000) == 0) {
-            return keys[row][3];
-        }
+        if((PORTD & 0b00010000) == 0) return keys[row][0];
+        if((PORTD & 0b00100000) == 0) return keys[row][1];
+        if((PORTD & 0b01000000) == 0) return keys[row][2];
+        if((PORTD & 0b10000000) == 0) return keys[row][3];
     }
 
     PORTD = 0b00001111;
