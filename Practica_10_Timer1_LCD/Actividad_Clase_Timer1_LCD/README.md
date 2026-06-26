@@ -20,7 +20,7 @@ El objetivo fue utilizar Timer1 como fuente de interrupción para generar una ba
 - Tierra GND
 - MPLAB X IDE
 - Compilador XC8
-- Proteus Design Suite
+- Proteus 
 - Librería LCD
 
 ---
