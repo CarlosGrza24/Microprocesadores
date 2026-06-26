@@ -41,6 +41,13 @@ Para el manejo de la pantalla LCD se utilizó la librería general del repositor
 
 [![Simulación Timer0 y voltaje](./evidencias_fisicas/Timer0volt_sim.gif)](./evidencias_fisicas/Timer0volt_sim.mp4)
 
+## Evidencias físicas
+
+### Armado general del circuito 
+![Armado físico LCD](./evidencias_fisicas/Timer0volt_armado_general.jpeg) 
+
+### Video de funcionamiento físico 
+[![Simulación Timer0 y voltaje](./evidencias_fisicas/Timer0volt_fisico.gif)](./evidencias_fisicas/Timer0volt_fisico.mp4)
 
 
 ---
