@@ -37,7 +37,7 @@ A diferencia de la actividad anterior, aquí el PWM se implementa por software u
 ![Armado físico motor](./evidencias_fisicas/motordc_armado_general.jpeg) 
 
 ### Video de funcionamiento físico 
-[![Funcionamiento motor direccion](./evidencias_fisicas/motor_fisico.gif)](./evidencias_fisicas/motor_fisico.mp4)
+[![Funcionamiento motor direccion](./evidencias_fisicas/motor_fisicoo.gif)](./evidencias_fisicas/motor_fisico.mp4)
 
 ---
 
