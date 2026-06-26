@@ -32,7 +32,7 @@ El valor leído por el ADC se convierte en un ancho de pulso entre `500 us` y `2
 ## Evidencias físicas 
 
 ### Armado general del circuito 
-![Armado físico Servo](./evidencias_fisicas/Servo_armado_general.jpeg) 
+![Armado físico Servo](./evidencias_fisicas/ServoP_armado_general.jpeg) 
 
 ### Video de funcionamiento físico Servo
 [![Funcionamiento Servo con Potenciometro](./evidencias_fisicas/servoP_fisico.gif)](./evidencias_fisicas/servoP_fisico.mp4)
