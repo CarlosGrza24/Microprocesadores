@@ -128,65 +128,70 @@ En estas prácticas se trabajó con el microcontrolador **PIC16F887**, utilizand
 <td>Conteo de tiempo en formato minutos y segundos usando Timer0</td>
 </tr>
 <tr>
-<td><a href="./Practica_9_Timers_LCD/Actividad_1_Timer0_Voltaje_LCD">Actividad 1</a></td>
+<td rowspan="2" align="center" valign="middle"><strong>Práctica 9</strong></td>
+<td><a href="./Practica_9_Timer0_LCD/Actividad_Clase_Timer0_LCD">Actividad en clase</a></td>
+<td>Temporizador con Timer0 y LCD</td>
+<td>Conteo de tiempo en formato MM:SS utilizando interrupciones con Timer0</td>
+</tr>
+<tr>
+<td><a href="./Practica_9_Timer0_LCD/Actividad_1_Timer0_Voltaje_LCD">Actividad 1</a></td>
 <td>Timer0 con monitoreo de voltaje</td>
-<td>Visualización de voltaje ADC y tiempo en LCD usando Timer0</td>
-</tr>
-<tr>
-<td><a href="./Practica_9_Timers_LCD/Actividad_Clase_B_Timer1_LCD">Actividad clase B</a></td>
-<td>Temporizador con Timer1 y LCD</td>
-<td>Conteo de tiempo usando interrupciones con Timer1</td>
-</tr>
-<tr>
-<td><a href="./Practica_9_Timers_LCD/Actividad_2_Timer1_Voltaje_LCD">Actividad 2</a></td>
-<td>Timer1 con monitoreo de voltaje</td>
-<td>Visualización de voltaje ADC y tiempo en LCD usando Timer1</td>
+<td>Visualización de voltaje ADC y tiempo en pantalla LCD</td>
 </tr>
 <tr>
 <td rowspan="2" align="center" valign="middle"><strong>Práctica 10</strong></td>
-<td><a href="./Practica_10_PWM_LEDs/Actividad_Clase_PWM_LED_Potenciometro">Actividad en clase</a></td>
-<td>PWM para controlar intensidad de un LED</td>
-<td>Control de brillo de un LED mediante potenciómetro y PWM por hardware</td>
+<td><a href="./Practica_10_Timer1_LCD/Actividad_Clase_Timer1_LCD">Actividad en clase</a></td>
+<td>Temporizador con Timer1 y LCD</td>
+<td>Conteo de tiempo en formato MM:SS utilizando interrupciones con Timer1</td>
 </tr>
 <tr>
-<td><a href="./Practica_10_PWM_LEDs/Actividad_1_PWM_Dos_LEDs_Dos_Potenciometros">Actividad 1</a></td>
-<td>PWM para controlar dos LEDs</td>
-<td>Control independiente de dos LEDs mediante dos potenciómetros y módulos CCP</td>
+<td><a href="./Practica_10_Timer1_LCD/Actividad_1_Timer1_Voltaje_LCD">Actividad 1</a></td>
+<td>Timer1 con monitoreo de voltaje</td>
+<td>Visualización de voltaje ADC y tiempo en pantalla LCD usando Timer1</td>
 </tr>
-
 <tr>
 <td rowspan="2" align="center" valign="middle"><strong>Práctica 11</strong></td>
-<td><a href="./Practica_11_Teclado_LCD/Actividad_Clase_Teclado_LCD">Actividad en clase</a></td>
-<td>Teclado matricial con LCD</td>
-<td>Lectura de teclado 4x4 y despliegue de teclas en pantalla LCD</td>
+<td><a href="./Practica_11_PWM_LEDs/Actividad_Clase_PWM_Dos_LEDs">Actividad en clase</a></td>
+<td>PWM para dos LEDs con dos potenciómetros</td>
+<td>Control independiente de intensidad mediante ADC y módulos CCP1/CCP2</td>
 </tr>
 <tr>
-<td><a href="./Practica_11_Teclado_LCD/Actividad_1_Calculadora_Teclado_LCD">Actividad 1</a></td>
-<td>Calculadora con teclado matricial</td>
-<td>Calculadora básica con operaciones usando teclado 4x4 y LCD</td>
+<td><a href="./Practica_11_PWM_LEDs/Actividad_1_PWM_LED">Actividad 1</a></td>
+<td>PWM para un LED con potenciómetro</td>
+<td>Control de intensidad de un LED mediante ADC y PWM por hardware</td>
 </tr>
-
 <tr>
 <td rowspan="2" align="center" valign="middle"><strong>Práctica 12</strong></td>
-<td><a href="./Practica_12_Motor_DC_PWM/Actividad_Clase_Motor_PWM_Potenciometro">Actividad en clase</a></td>
-<td>Control de motor DC con PWM</td>
-<td>Control de velocidad de un motor mediante potenciómetro y PWM por hardware</td>
+<td><a href="./Practica_12_Teclado_LCD/Actividad_Clase_Teclado_LCD">Actividad en clase</a></td>
+<td>Teclado matricial con LCD</td>
+<td>Lectura de teclado 4x4 y despliegue de caracteres en pantalla LCD</td>
 </tr>
 <tr>
-<td><a href="./Practica_12_Motor_DC_PWM/Actividad_1_Motor_PWM_Direccion">Actividad 1</a></td>
-<td>Motor DC con velocidad y dirección</td>
-<td>Control de velocidad y dirección de giro con dos potenciómetros y PWM por software</td>
+<td><a href="./Practica_12_Teclado_LCD/Actividad_1_Calculadora_LCD">Actividad 1</a></td>
+<td>Calculadora con teclado matricial y LCD</td>
+<td>Operaciones básicas usando teclado 4x4 y pantalla LCD</td>
 </tr>
 <tr>
 <td rowspan="2" align="center" valign="middle"><strong>Práctica 13</strong></td>
-<td><a href="./Practica_13_Servo/Actividad_Clase_Servo_0_180">Actividad en clase</a></td>
-<td>Servo 0° a 180°</td>
-<td>Movimiento automático de un servomotor usando pulsos generados con Timer1</td>
+<td><a href="./Practica_13_Motor_DC/Actividad_Clase_Motor_PWM">Actividad en clase</a></td>
+<td>Control de motor DC con PWM</td>
+<td>Control de velocidad de un motor DC mediante potenciómetro y PWM</td>
 </tr>
 <tr>
-<td><a href="./Practica_13_Servo/Actividad_1_Servo_Potenciometro">Actividad 1</a></td>
+<td><a href="./Practica_13_Motor_DC/Actividad_1_Motor_Direccion_PWM">Actividad 1</a></td>
+<td>Motor DC con velocidad y dirección</td>
+<td>Control de velocidad y dirección mediante dos potenciómetros y PWM por software</td>
+</tr>
+<tr>
+<td rowspan="2" align="center" valign="middle"><strong>Práctica 14</strong></td>
+<td><a href="./Practica_14_Servo/Actividad_Clase_Servo_0_180">Actividad en clase</a></td>
+<td>Servo de 0° a 180°</td>
+<td>Movimiento automático de servomotor usando pulsos temporizados con Timer1</td>
+</tr>
+<tr>
+<td><a href="./Practica_14_Servo/Actividad_1_Servo_Potenciometro">Actividad 1</a></td>
 <td>Servo controlado con potenciómetro</td>
-<td>Control de posición de un servomotor mediante ADC y potenciómetro</td>
+<td>Control de posición de un servomotor mediante ADC</td>
 </tr>
 </tbody>
 </table>
