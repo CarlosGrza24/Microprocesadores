@@ -21,7 +21,7 @@ El proyecto utiliza pantallas LCD 16x2, joysticks analógicos, lectura ADC, cara
 - Proteus Design Suite
 
  ### Simulación en Proteus
-![Simulación Juego Futbol](./evidencias_fisicas/Comu_simu.gif)
+![Simulación Juego Futbol](./evidencias_fisicas/proy_simu.gif)
 
 ## Funcionamiento general
 
